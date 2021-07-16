@@ -1,5 +1,7 @@
 package math
 
+import "github.com/sioncheng/gomod-example/math/internal"
+
 func Double(a int) int {
-	return a * 2
+	return internal.Double(a)
 }
